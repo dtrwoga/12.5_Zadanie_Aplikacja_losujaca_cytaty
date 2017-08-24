@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-image: url("background.jpg"); }
+
+.box {
+  margin: 100px 0 100px 0; }
+  .box h2 {
+    font-family: "Lobster", cursive;
+    font-style: italic;
+    font-size: 36px; }
+    @media (min-width: 544px) {
+      .box h2 {
+        font-size: 48px; } }
+    @media (min-width: 768px) {
+      .box h2 {
+        font-size: 56px; } }
+    @media (min-width: 992px) {
+      .box h2 {
+        font-size: 62px; } }
+    @media (min-width: 1200px) {
+      .box h2 {
+        font-size: 64px; } }
+  .box h3 {
+    font-family: "Raleway", sans-serif;
+    display: block;
+    margin-top: 60px; }
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 36px;
+  margin: 40px 0 40px 0; }
+
+.buttons {
+  position: relative;
+  text-align: center;
+  margin: 0 auto; }
+  .buttons .trigger,
+  .buttons .tweet {
+    width: 200px;
+    display: block;
+    margin: 10px 0 10px 0;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=style.css.map */
